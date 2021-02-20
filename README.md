@@ -1,55 +1,48 @@
-# Hey Mentor Web
+# Hey Mentor app
 
 ## Contributing
 
 There are many ways to participate in the project. Just to name a few:
 
-* Submit bugs and feature requests
-* Review code changes
-* Review documentation and make pull requests for updates
+- Submit bugs and feature requests
+- Review code changes
+- Review documentation and make pull requests for updates
 
 If interested in contirbuting directly to the code, please review the following:
 
-* How to build and run from source
+- How to build and run from source:
   1. Make sure you have a GitHub account. If not, [create one](https://github.com/join).
   2. Install [Node.js LTS](https://nodejs.org).
   3. Install [Visual Studio Code](https://code.visualstudio.com/Download) or other editor.
-  4. ```git clone HeyMentor-Web https://github.com/flanakin/HeyMentor-Web```
-  5. ```cd HeyMentor-Web```
-  6. ```npm install```
-  7. ```gatsby develop```
+  4. `git clone https://github.com/Hey-Mentor/web hm`
+  5. `cd hm`
+  6. `npm install`
+  7. `gatsby develop`
   8. Open local site at [http://localhost:8000]()
-* Development workflow, including debugging and running tests
-  * **Roadmap** – Basic roadmap with high-level themes and features per release.
-  * **Iterations** – We work in monthly iterations with small, modest goals.
-  * **Planning** – We try to identify what work can be completed before each iteration starts. Each iteration seeks to bring us closer to the next milestone in the roadmap.
-  * **Quality** – We strive to attain high quality in everything we do, including consideration for:
-    * Accessibility
-    * Localization
-    * Dark and high contrast mode
-* Coding guidelines
-* Submitting pull requests
-* Finding an issue to work on
-* Contributing to translations
-
+- Development workflow, including debugging and running tests
+  - **Roadmap** – Basic roadmap with high-level themes and features per release.
+  - **Iterations** – We work in monthly iterations with small, modest goals.
+  - **Planning** – We try to identify what work can be completed before each iteration starts. Each iteration seeks to bring us closer to the next milestone in the roadmap.
+  - **Quality** – We strive to attain high quality in everything we do, including consideration for:
+    - Accessibility
+    - Localization
+    - Dark and high contrast mode
+- Coding guidelines
+- Submitting pull requests
+- Finding an issue to work on
+- Contributing to translations
 
 ## Feedback
 
-* Request a new feature
-* Upvote existing feature requests
-* File an issue
-* Follow Hey Mentor on [Twitter](https://twitter.com/heymentornews) or [Instagram](https://instagram.com/heymentor)
-
-1. Setup your fork and development environment
-2. Make and validate your change on a physical device, if possible
-3. Create a pull request against the **heymentor/mobile** repository
-4. Apply any changes based on feedback and complete the pull request
-
+- Request a new feature
+- Upvote existing feature requests
+- File an issue
+- Follow Hey Mentor on [Twitter](https://twitter.com/heymentornews) or [Instagram](https://instagram.com/heymentor)
 
 ## Architecture
 
 Hey Mentor Web uses [React](https://reactjs.org), [Gatsby](https://www.gatsbyjs.com), and [Fluent UI](https://developer.microsoft.com/fluentui).
-Here are a few tips for working with each:
+Here are a few tips for working with each...
 
 ### React
 
@@ -57,11 +50,14 @@ Learn more about [React](https://reactjs.org).
 
 ### Gatsby
 
-To launch the app locally, run `gatsby develop` and open [http://localhost:8000]() to test the app or 
-[http://localhost:8000/___graphql]() for the [integrated Graph query tool](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql). 
+To launch the app locally, run `gatsby develop` and open [http://localhost:8000]() to test the app or
+[http://localhost:8000/\_\_\_graphql]() for the [integrated Graph query tool](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
 
-> <small>_Note: If using Edge or Chrome and you see an error about the site not being secure and the browser redirected you to **https**, 
-open [chrome://net-internals/#hsts](), scroll down to the **Delete domain security policies** section, enter **localhost** into the textbox, and click **Delete**._</small>
+> <small>_Note: If using Edge or Chrome and you see an error about the site not being secure and the browser redirected you to **https**,
+> open [chrome://net-internals/#hsts](),
+> scroll down to the **Delete domain security policies** section,
+> enter **localhost** into the textbox,
+> and click **Delete**._</small>
 
 Edit the code in place and the browser should update automatically (no need to refresh). The default page is `src/pages/index.js`.
 
