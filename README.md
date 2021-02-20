@@ -18,7 +18,7 @@ If interested in contirbuting directly to the code, please review the following:
   5. `cd hm`
   6. `npm install`
   7. `gatsby develop`
-  8. Open local site at [http://localhost:8000](http://localhost:8000)
+  8. Open local site at <a href="http://localhost:8000" target="_blank">http://localhost:8000</a>
 - Development workflow, including debugging and running tests
   - **Roadmap** – Basic roadmap with high-level themes and features per release.
   - **Iterations** – We work in monthly iterations with small, modest goals.
@@ -50,11 +50,11 @@ Learn more about [React](https://reactjs.org).
 
 ### Gatsby
 
-To launch the app locally, run `gatsby develop` and open [http://localhost:8000](http://localhost:8000) to test the app or
-[http://localhost:8000/\_\_\_graphql](http://localhost:8000/___graphql) for the [integrated Graph query tool](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
+To launch the app locally, run `gatsby develop` and open <a href="http://localhost:8000" target="_blank">http://localhost:8000</a> to test the app or
+<a href="http://localhost:8000/___graphql" target="_blank">http://localhost:8000/\_\_\_graphql</a> for the [integrated Graph query tool](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
 
 > <small>_Note: If using Edge or Chrome and you see an error about the site not being secure and the browser redirected you to **https**,
-> open [chrome://net-internals/#hsts](chrome://net-internals/#hsts),
+> open <a href="chrome://net-internals/#hsts" target="_blank">chrome://net-internals/#hsts</a>,
 > scroll down to the **Delete domain security policies** section,
 > enter **localhost** into the textbox,
 > and click **Delete**._</small>
