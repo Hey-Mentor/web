@@ -29,14 +29,14 @@ If interested in contirbuting directly to the code, please review the following:
     - Dark and high contrast mode
 - Coding guidelines
 - Submitting pull requests
-- Finding an issue to work on
+- [Finding an issue](https://github.com/Hey-Mentor/web/contribute) to work on
 - Contributing to translations
 
 ## Feedback
 
 - Request a new feature
 - Upvote existing feature requests
-- File an issue
+- [File an issue](https://github.com/Hey-Mentor/web/issues/new)
 - Follow Hey Mentor on [Twitter](https://twitter.com/heymentornews) or [Instagram](https://instagram.com/heymentor)
 
 ## Architecture
