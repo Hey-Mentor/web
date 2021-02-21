@@ -1,0 +1,20 @@
+/*html, body, #container, nav, nav ul { height: 100vh; }*/
+body { margin: 0; padding: 0; }
+
+/* desktop */
+#container { display: flex; align-items: stretch;  }
+nav { background-color: #059CD5; height: 100vh; width: 50px; }
+nav ul, nav li { margin: 0; padding: 0; list-style-type: none; }
+nav li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+nav li a .profile-photo { padding: 13px; }
+nav li a svg { padding: 13px; }
+nav li a#home svg { padding: 5px; }
+nav li a.selected { background-color: #026894; }
+nav li a:hover { background-color: #0482B5; }
+
+.profile-photo { border-radius: 50%; }
